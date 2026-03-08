@@ -275,13 +275,12 @@ size = Vector2(14, 18)
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=407632541]
 script = ExtResource("1_g2brh")
-speed = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=174899273]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_10alf")
 animation = &"idle_back"
-frame_progress = 0.012930551
+frame_progress = 0.64979774
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2028512086]
 position = Vector2(0, 6)
