@@ -249,6 +249,7 @@ size = Vector2(14, 19)
 script = ExtResource("1_g2brh")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=174899273]
+z_index = 1
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_10alf")
 animation = &"idle_front"
