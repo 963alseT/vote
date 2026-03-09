@@ -5,22 +5,22 @@ extends CharacterBody2D
 
 var last_direction = ""
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	var direction = Vector2.ZERO
 	
-	if Input.is_action_pressed("ui_up"):
+	if Input.is_action_pressed("move_up"):
 		direction.y -= 1
 		sprite.play("walk_back")
 		last_direction = "up"
-	if Input.is_action_pressed("ui_down"):
+	if Input.is_action_pressed("move_down"):
 		direction.y += 1
 		sprite.play("walk_front")
 		last_direction = "down"
-	if Input.is_action_pressed("ui_left"):
+	if Input.is_action_pressed("move_left"):
 		direction.x -= 1
 		sprite.play("walk_left")
 		last_direction = "left"
-	if Input.is_action_pressed("ui_right"):
+	if Input.is_action_pressed("move_right"):
 		direction.x += 1
 		sprite.play("walk_right")
 		last_direction = "right"
