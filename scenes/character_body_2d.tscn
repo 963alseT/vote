@@ -243,7 +243,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g2brh"]
-size = Vector2(14, 19)
+size = Vector2(14, 9)
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=407632541]
 script = ExtResource("1_g2brh")
@@ -255,7 +255,7 @@ sprite_frames = SubResource("SpriteFrames_10alf")
 animation = &"idle_front"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2028512086]
-position = Vector2(0, 5.5)
+position = Vector2(0, 10.5)
 shape = SubResource("RectangleShape2D_g2brh")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=473148578]
