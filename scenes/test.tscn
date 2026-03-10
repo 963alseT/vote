@@ -9,7 +9,6 @@
 [ext_resource type="PackedScene" uid="uid://evwwfoidpso6" path="res://trafficlight2.tscn" id="6_lpvoh"]
 [ext_resource type="PackedScene" uid="uid://dxhqj7gw4cj65" path="res://redbuilding.tscn" id="7_at5dv"]
 [ext_resource type="PackedScene" uid="uid://j08hdogxs2lc" path="res://largeshop1.tscn" id="9_uacia"]
-[ext_resource type="PackedScene" uid="uid://bvckpgsyyrcty" path="res://largetree.tscn" id="10_yk7ts"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bl13t"]
 texture = ExtResource("1_errlg")
@@ -1263,6 +1262,3 @@ position = Vector2(64, -48)
 
 [node name="StaticBody2D7" parent="." unique_id=379711017 instance=ExtResource("9_uacia")]
 position = Vector2(144, -32)
-
-[node name="StaticBody2D8" parent="." unique_id=975687092 instance=ExtResource("10_yk7ts")]
-position = Vector2(208, -34)
