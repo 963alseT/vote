@@ -1227,6 +1227,7 @@ texture = ExtResource("1_errlg")
 sources/0 = SubResource("TileSetAtlasSource_74lek")
 
 [node name="Test" type="Node2D" unique_id=1049585047]
+position = Vector2(32, 0)
 
 [node name="CharacterBody2D" parent="." unique_id=407632541 instance=ExtResource("2_bl13t")]
 position = Vector2(723, -64)
